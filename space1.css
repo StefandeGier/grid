@@ -1,11 +1,29 @@
 * {margin: 0; padding: 0;}
 body {
 	background-image: url("bg.png");
-	font-family: Tahoma;
+	font-family: sans-serif;
+
+}
+
+box-sizing: border-box{
+
+
+
+
+}
+
+
+
+article{
+margin:auto;
+margin-left: 110px;
+margin-right:110px;
+
 }
 
 .frame{
 	background-color: rgba(0,128,0,0.4);
+	padding: 20px;
 	
 	/* put css-rules in this ccs-block here below */
 	
@@ -14,14 +32,17 @@ body {
 h1{
 	background-color: rgba(0,32,0,0.4);
 	line-height: 40px;
-	
+	margin: 10px;
+
 	/* put css-rules in this ccs-block here below */
 	
 }
 
 h2 {
 	line-height: 30px;
-	
+	margin:10px;
+	border: solid 4px;
+	border-color: purple
 	/* put css-rules in this ccs-block here below */
 	
 }
@@ -29,6 +50,7 @@ h2 {
 p{
 	background-color: rgba(256,256,0,0.4);
 	line-height: 20px;
+	margin: 10px;
 	
 	/* put css-rules in this ccs-block here below */
 
